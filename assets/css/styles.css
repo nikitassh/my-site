@@ -235,6 +235,9 @@ img{
 .about__text{
     margin-bottom: var(--mb-4);
 }
+.about__text a{
+    color: var(--first-color);
+}
 .about__profession{
     display: block;
     margin-bottom: var(--mb-4);
