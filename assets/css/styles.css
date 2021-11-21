@@ -286,6 +286,9 @@ img{
 }
 .portfolio__img img{
     border-radius: .5rem;
+    width: 320px;
+    height: 200px;
+    object-fit: cover;
 }
 .portfolio__link{
     position: absolute;
@@ -305,6 +308,7 @@ img{
     bottom: 0;
 }
 .portfolio__link-name{
+    text-align: center;
     color: var(--dark-color);
 }
 
